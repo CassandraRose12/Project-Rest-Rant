@@ -1,0 +1,23 @@
+{
+  "name": "rest-rant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CassandraRose12/Project-Rest-Rant.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CassandraRose12/Project-Rest-Rant/issues"
+  },
+  "homepage": "https://github.com/CassandraRose12/Project-Rest-Rant#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
