@@ -3,6 +3,8 @@
 REST-Rant is an app where users can review restaurants.
 Colons can be used to align columns.
 
+Routes
+--------------------------------------------------------
 | Method | Path                   | Purpose 
 | -------|:-----------------------| -------:
 | GET    | /                      | Home Page              
@@ -17,4 +19,13 @@ Colons can be used to align columns.
 | DELETE | /places/:id/rant/:randId | Delete a rant (comment) about a particular place
 | GET     | *                     | 404 page (matches any route not defined above
 
-
+Database (places)
+-------------------------
+|Field    | Type
+| --------|:----------:
+| _id     |	Object ID
+|name	  | String
+|city	  | String
+|state	  | String
+|cuisines |	String
+|pic	  | String
